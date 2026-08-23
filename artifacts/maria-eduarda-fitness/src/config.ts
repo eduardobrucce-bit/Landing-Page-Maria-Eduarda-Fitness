@@ -20,12 +20,12 @@ export const SITE_CONFIG = {
     { image: '/result-04.jpg', label: 'Evolução e confiança', alt: 'Montagem com fotos de uma cliente antes e depois da consultoria' },
   ],
   testimonials: [
-    { name: '[Nome da cliente 01]', text: '[Substitua por um depoimento real sobre a experiência na consultoria.]', image: '' },
-    { name: '[Nome da cliente 02]', text: '[Substitua por um depoimento real sobre a experiência na consultoria.]', image: '' },
-    { name: '[Nome da cliente 03]', text: '[Substitua por um depoimento real sobre a experiência na consultoria.]', image: '' },
-    { name: '[Nome da cliente 04]', text: '[Substitua por um depoimento real sobre a experiência na consultoria.]', image: '' },
-    { name: '[Nome da cliente 05]', text: '[Substitua por um depoimento real sobre a experiência na consultoria.]', image: '' },
-    { name: '[Nome da cliente 06]', text: '[Substitua por um depoimento real sobre a experiência na consultoria.]', image: '' },
+    { name: 'Marina', text: '[Relato real autorizado da Marina sobre a experiência na consultoria.]', image: '/result-01.jpg' },
+    { name: 'Camila', text: '[Relato real autorizado da Camila sobre a experiência na consultoria.]', image: '/result-02.jpg' },
+    { name: 'Juliana', text: '[Relato real autorizado da Juliana sobre a experiência na consultoria.]', image: '/result-04.jpg' },
+    { name: 'Cliente 04', text: '[Relato real autorizado sobre a experiência na consultoria.]', image: '/result-03.jpg' },
+    { name: 'Cliente 05', text: '[Relato real autorizado sobre a experiência na consultoria.]', image: '/result-01.jpg' },
+    { name: 'Cliente 06', text: '[Relato real autorizado sobre a experiência na consultoria.]', image: '/result-04.jpg' },
   ],
 } as const;
 
