@@ -12,6 +12,7 @@ export const SITE_CONFIG = {
     about: '/maria-hero.png',
     ebook: '/ebook-food.png',
   },
+  brandLogo: '/giga-kitty-logo.png',
   testimonials: [
     { name: '[Nome da cliente 01]', text: '[Substitua por um depoimento real sobre a experiência na consultoria.]', image: '' },
     { name: '[Nome da cliente 02]', text: '[Substitua por um depoimento real sobre a experiência na consultoria.]', image: '' },
