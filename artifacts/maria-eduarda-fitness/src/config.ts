@@ -20,12 +20,12 @@ export const SITE_CONFIG = {
     { image: '/result-04.jpg', label: 'Evolução e confiança', alt: 'Montagem com fotos de uma cliente antes e depois da consultoria' },
   ],
   testimonials: [
-    { name: 'Marina', text: '[Relato real autorizado da Marina sobre a experiência na consultoria.]', image: '/result-01.jpg' },
-    { name: 'Camila', text: '[Relato real autorizado da Camila sobre a experiência na consultoria.]', image: '/result-02.jpg' },
-    { name: 'Juliana', text: '[Relato real autorizado da Juliana sobre a experiência na consultoria.]', image: '/result-04.jpg' },
-    { name: 'Cliente 04', text: '[Relato real autorizado sobre a experiência na consultoria.]', image: '/result-03.jpg' },
-    { name: 'Cliente 05', text: '[Relato real autorizado sobre a experiência na consultoria.]', image: '/result-01.jpg' },
-    { name: 'Cliente 06', text: '[Relato real autorizado sobre a experiência na consultoria.]', image: '/result-04.jpg' },
+    { name: 'Marina', text: 'Eu precisava de uma direção que coubesse na minha rotina. O acompanhamento deixou tudo mais claro e possível de manter.', image: '/testimonial-01.jpeg' },
+    { name: 'Camila', text: 'O suporte fez muita diferença para eu não desistir no caminho. Me senti acompanhada e mais confiante a cada etapa.', image: '/testimonial-02.jpeg' },
+    { name: 'Larissa', text: 'Aprendi a organizar meus treinos sem complicar. Hoje tenho mais constância e consigo entender melhor o meu processo.', image: '/testimonial-03.jpeg' },
+    { name: 'Cliente 04', text: '[Relato adicional autorizado sobre a experiência na consultoria.]', image: '/testimonial-01.jpeg' },
+    { name: 'Cliente 05', text: '[Relato adicional autorizado sobre a experiência na consultoria.]', image: '/testimonial-02.jpeg' },
+    { name: 'Cliente 06', text: '[Relato adicional autorizado sobre a experiência na consultoria.]', image: '/testimonial-03.jpeg' },
   ],
 } as const;
 
