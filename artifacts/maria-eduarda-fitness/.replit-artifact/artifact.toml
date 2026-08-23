@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Maria Eduarda Fitness"
+description = "Landing page premium para uma especialista fitness feminina, com foco em conversão para consultoria via WhatsApp e oferta secundária de e-book de receitas saudáveis."
+version = "1.0.0"
+id = "artifacts/maria-eduarda-fitness"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 20031
+
+[services.development]
+run = "pnpm --filter @workspace/maria-eduarda-fitness run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/maria-eduarda-fitness", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/maria-eduarda-fitness/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "20031"
+BASE_PATH = "/"

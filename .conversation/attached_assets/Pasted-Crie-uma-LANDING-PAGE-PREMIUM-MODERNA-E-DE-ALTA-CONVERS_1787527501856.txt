@@ -1,0 +1,677 @@
+Crie uma LANDING PAGE PREMIUM, MODERNA E DE ALTA CONVERSÃO para uma especialista feminina do nicho de ACADEMIA, FITNESS, EMAGRECIMENTO E ESTILO DE VIDA SAUDÁVEL.
+
+A página deve ter como principal objetivo apresentar a especialista, gerar autoridade, mostrar como funciona a consultoria e levar a visitante para o WHATSAPP para iniciar uma conversa e contratar a consultoria.
+
+Também haverá uma segunda oferta: um E-BOOK DE RECEITAS FÁCEIS E SAUDÁVEIS.
+
+\==================================================
+
+1. CONCEITO VISUAL
+   \==================================================
+
+A identidade visual deve ser feminina, sofisticada, fitness e moderna.
+
+A cor principal da marca é ROSA.
+
+IMPORTANTE:
+Não quero um rosa infantil ou exageradamente chamativo.
+
+Utilize uma combinação sofisticada de:
+
+- Rosa como cor principal
+- Rosa claro
+- Rosa médio
+- Branco
+- Preto/grafite para textos
+- Pequenos detalhes em tons neutros
+
+Sugestão de paleta:
+
+Rosa principal: #E83E8C
+Rosa claro: #FCE7F3
+Rosa suave: #FFF5F9
+Preto: #18181B
+Cinza: #71717A
+Branco: #FFFFFF
+
+A página deve transmitir:
+
+- Feminilidade
+- Saúde
+- Confiança
+- Disciplina
+- Transformação
+- Exclusividade
+- Profissionalismo
+- Proximidade
+
+Evite aparência de site genérico de academia.
+
+O design deve parecer uma marca pessoal de uma especialista fitness.
+
+# ================================================== 2. HEADER
+
+Criar um header elegante e minimalista.
+
+Logo/nome da especialista no lado esquerdo:
+
+"[Maria Eduarda]"
+
+Menu:
+
+Início
+Sobre
+Consultoria
+E-book
+FAQ
+
+No lado direito:
+
+"QUERO SER DO TIME GIGA KITTY"
+
+Esse botão deve levar diretamente para o WhatsApp.
+
+No mobile, transformar o menu em menu hamburguer.
+
+O header deve ficar sticky durante o scroll.
+
+# ================================================== 3. HERO SECTION
+
+Criar uma primeira seção extremamente impactante.
+
+Layout:
+
+Lado esquerdo:
+Copy
+
+Lado direito:
+Foto profissional da especialista.
+
+Adicionar uma pequena etiqueta acima da headline:
+
+"✨ CONSULTORIA FITNESS PERSONALIZADA"
+
+Headline:
+
+"Seu corpo muda quando sua rotina começa a mudar."
+
+Criar uma subheadline persuasiva:
+
+"Tenha acompanhamento, estratégia e direcionamento para treinar melhor, organizar sua rotina e evoluir de forma mais consistente."
+
+CTA principal:
+
+"QUERO CONHECER A CONSULTORIA"
+
+CTA secundário:
+
+"FALAR COM A ESPECIALISTA"
+
+Os dois devem abrir o WhatsApp.
+
+Adicionar abaixo do CTA:
+
+"💬 Atendimento personalizado pelo WhatsApp"
+
+Adicionar elementos visuais discretos como:
+
+★★★★★
+"Atendimento personalizado"
+
+A imagem da especialista deve ser grande, profissional e ter estética editorial fitness.
+
+Deixar o espaço da imagem facilmente substituível.
+
+# ================================================== 4. SEÇÃO DE IDENTIFICAÇÃO
+
+Título:
+
+"Você sente que está fazendo tudo certo, mas não consegue evoluir?"
+
+Criar 4 cards:
+
+"Treina, mas sente que está sem direção"
+
+"Não sabe exatamente como organizar sua rotina"
+
+"Começa motivada e acaba perdendo a constância"
+
+"Fica perdida com tantas informações diferentes"
+
+Depois:
+
+"Você não precisa fazer tudo sozinha."
+
+Texto:
+
+"A consultoria foi criada para as pessoas que querem parar de depender de tentativa e erro e ter um direcionamento mais claro para sua rotina."
+
+CTA:
+
+"QUERO SABER COMO FUNCIONA"
+
+# ================================================== 5. SOBRE A ESPECIALISTA
+
+Criar uma seção sofisticada apresentando a especialista.
+
+Título:
+
+"Prazer, eu sou [NOME DA ESPECIALISTA]"
+
+Colocar uma foto grande da especialista.
+
+Texto:
+
+"Sou especialista em ajudar homens e mulheres a construírem uma rotina mais organizada de treino e hábitos saudáveis, respeitando a realidade e os objetivos de cada pessoa."
+
+Criar espaço para inserir posteriormente:
+
+
+- Experiência
+- Número de alunas
+- Especializações
+- Resultados
+
+Criar cards de autoridade:
+
+"[X]+ alunas acompanhadas"
+
+"[X] anos de experiência"
+
+"Atendimento personalizado"
+
+Os números devem ficar facilmente editáveis.
+
+# ================================================== 6. CONSULTORIA
+
+Essa é a PRINCIPAL seção da página.
+
+Criar uma seção visualmente premium.
+
+Título:
+
+"Conheça minha Consultoria Fitness"
+
+Subheadline:
+
+"Um acompanhamento pensado para você parar de treinar no automático e começar a seguir uma estratégia."
+
+Mostrar visualmente como funciona.
+
+Criar 4 etapas:
+
+01 — Avaliação
+
+"Entendemos sua rotina, objetivos e momento atual."
+
+02 — Estratégia
+
+"Definimos os direcionamentos de acordo com suas necessidades."
+
+03 — Acompanhamento
+
+"Você recebe orientação e suporte durante o processo."
+
+04 — Evolução
+
+"Analisamos sua evolução e ajustamos o planejamento quando necessário."
+
+Adicionar uma grande imagem/mockup representando a consultoria.
+
+# ================================================== 7. O QUE ESTÁ INCLUSO
+
+Título:
+
+"O que você recebe na consultoria?"
+
+Criar cards com ícones:
+
+✓ Atendimento personalizado
+
+✓ Orientação individual
+
+✓ Acompanhamento pelo WhatsApp
+
+✓ Estratégia de treino
+
+✓ Direcionamento para sua rotina
+
+✓ Acompanhamento da evolução
+
+✓ Ajustes quando necessário
+
+✓ Suporte durante o processo
+
+IMPORTANTE:
+
+Deixar todos os itens facilmente editáveis para que a especialista possa ajustar exatamente o que oferece.
+
+# ================================================== 8. PARA QUEM É A CONSULTORIA
+
+Título:
+
+"A consultoria é para você que..."
+
+Criar cards:
+
+"Está começando agora"
+
+"Já treina, mas sente que está estagnada"
+
+"Quer mais organização"
+
+"Precisa de acompanhamento"
+
+"Quer deixar de fazer tudo no improviso"
+
+"Busca mais consistência"
+
+Adicionar CTA:
+
+"QUERO CONVERSAR SOBRE A CONSULTORIA"
+
+Botão abre WhatsApp.
+
+# ================================================== 9. RESULTADOS / DEPOIMENTOS
+
+Criar seção:
+
+"Resultados que vão além da balança"
+
+Adicionar espaço para depoimentos reais.
+
+Criar 6 cards de depoimentos.
+
+Cada card deve conter:
+
+- Foto
+- Nome
+- Pequeno comentário
+- Estrelas
+
+IMPORTANTE:
+
+Não inventar depoimentos ou resultados.
+
+Utilizar textos placeholders claramente identificáveis no código para que a especialista possa substituir por depoimentos reais.
+
+Também criar espaço para inserir fotos reais de evolução das clientes, caso existam.
+
+Adicionar aviso:
+
+"Resultados individuais podem variar."
+
+# ================================================== 10. CTA CONSULTORIA
+
+Criar uma seção de destaque rosa.
+
+Título:
+
+"Pronta para parar de fazer tudo sozinha?"
+
+Texto:
+
+"Me conte um pouco sobre você, seus objetivos e sua rotina. Vamos conversar e descobrir se a consultoria faz sentido para você."
+
+Botão grande:
+
+"QUERO FALAR NO WHATSAPP"
+
+Adicionar ícone do WhatsApp.
+
+Ao clicar:
+
+window\.open(WHATSAPP\_URL, "\_blank")
+
+Criar uma variável no código:
+
+const WHATSAPP\_URL = "SEU\_LINK\_DO\_WHATSAPP\_AQUI";
+
+Todos os botões relacionados à consultoria devem utilizar essa variável.
+
+# ================================================== 11. E-BOOK DE RECEITAS
+
+Criar uma seção separada da consultoria.
+
+Ela deve funcionar como uma segunda oferta.
+
+Usar fundo rosa claro.
+
+Título:
+
+"Alimentação saudável não precisa ser complicada."
+
+Subheadline:
+
+"Conheça meu e-book com receitas fáceis, práticas e deliciosas para deixar sua rotina muito mais simples."
+
+Criar um MOCKUP 3D profissional do e-book.
+
+O mockup pode representar:
+
+- Livro digital
+- Tablet
+- Smartphone
+- Páginas de receitas
+
+Título do produto:
+
+"Receitas Fáceis & Saudáveis"
+
+Criar benefícios:
+
+🥗 Receitas simples
+
+⏱️ Preparações práticas
+
+🛒 Ingredientes fáceis de encontrar
+
+🍓 Opções para diferentes momentos do dia
+
+👩‍🍳 Passo a passo
+
+CTA:
+
+"QUERO CONHECER O E-BOOK"
+
+Criar uma variável separada:
+
+const EBOOK\_URL = "SEU\_LINK\_DO\_EBOOK\_AQUI";
+
+O botão deve direcionar para essa URL.
+
+# ================================================== 12. MOCKUPS DO E-BOOK
+
+Criar visualmente:
+
+1. Mockup principal do e-book
+2. Miniaturas de páginas internas
+3. Cards mostrando exemplos de receitas
+
+Exemplo:
+
+"🍓 Café da manhã"
+
+"Omelete proteico"
+
+"🥗 Almoço"
+
+"Salada completa"
+
+"🍫 Sobremesa"
+
+"Doce saudável"
+
+Os conteúdos devem ser facilmente editáveis.
+
+# ================================================== 13. OFERTA DO E-BOOK
+
+Criar um card premium:
+
+"RECEITAS FÁCEIS & SAUDÁVEIS"
+
+Mostrar:
+
+"De R$ XX,XX"
+
+"Por apenas R$ XX,XX"
+
+Preço totalmente editável.
+
+Adicionar:
+
+"📱 Acesso digital"
+
+"⚡ Acesso rápido"
+
+"🔒 Pagamento seguro"
+
+CTA:
+
+"QUERO MEU E-BOOK"
+
+# ================================================== 14. FAQ
+
+Criar uma seção FAQ moderna usando accordion.
+
+Título:
+
+"Perguntas frequentes"
+
+Perguntas:
+
+"Como funciona a consultoria?"
+
+"Como é feito o acompanhamento?"
+
+"O atendimento é pelo WhatsApp?"
+
+"Preciso morar na mesma cidade que a especialista?"
+
+"Posso fazer a consultoria mesmo sendo iniciante?"
+
+"Quanto tempo dura a consultoria?"
+
+"O que está incluso?"
+
+"Como faço para começar?"
+
+"Como recebo o e-book?"
+
+"Posso acessar o e-book pelo celular?"
+
+As respostas devem ser placeholders editáveis.
+
+# ================================================== 15. CTA FINAL
+
+Criar uma seção final extremamente bonita.
+
+Fundo em degradê sutil de rosa.
+
+Título:
+
+"Seu próximo passo pode começar hoje."
+
+Texto:
+
+"Converse comigo pelo WhatsApp e descubra como funciona a consultoria."
+
+Botão:
+
+"QUERO MINHA CONSULTORIA"
+
+Adicionar abaixo:
+
+"💬 Atendimento personalizado"
+
+"🔒 Conversa segura"
+
+# ================================================== 16. FOOTER
+
+Criar footer minimalista.
+
+Nome:
+
+"[NOME DA ESPECIALISTA]"
+
+Links:
+
+Início
+Consultoria
+E-book
+FAQ
+Contato
+Política de Privacidade
+Termos de Uso
+
+Adicionar:
+
+"© 2026 [NOME DA ESPECIALISTA]. Todos os direitos reservados."
+
+Adicionar aviso:
+
+"Os conteúdos apresentados possuem caráter informativo e não substituem avaliação ou acompanhamento individual realizado por profissionais habilitados."
+
+# ================================================== 17. ELEMENTOS DE CONVERSÃO
+
+Adicionar:
+
+- CTA para WhatsApp ao longo da página
+- Botão sticky no mobile
+- Ícone do WhatsApp
+- Microcopy abaixo dos botões
+- Prova social real
+- Cards de benefícios
+- Seção de autoridade
+- FAQ
+- Hierarquia visual forte
+- Animações suaves
+- Scroll reveal
+- Hover nos cards
+- Botões com microinterações
+
+No mobile, criar uma barra fixa inferior:
+
+"💗 QUERO MINHA CONSULTORIA"
+
+Essa barra deve aparecer somente em telas pequenas.
+
+# ================================================== 18. RESPONSIVIDADE
+
+A página precisa ser MOBILE FIRST.
+
+No celular:
+
+- Hero organizado verticalmente
+- Foto da especialista bem posicionada
+- Botões grandes
+- Cards em uma coluna
+- Texto perfeitamente legível
+- FAQ funcionando por toque
+- Sticky CTA inferior
+- Sem qualquer overflow horizontal
+
+Testar também:
+
+375px
+390px
+414px
+768px
+1024px
+1440px
+
+# ================================================== 19. TECNOLOGIA
+
+Utilizar:
+
+React
+Vite
+Tailwind CSS
+Lucide React
+
+Criar componentes separados:
+
+Header
+Hero
+IdentificationSection
+AboutSection
+ConsultingSection
+BenefitsSection
+AudienceSection
+TestimonialsSection
+WhatsAppCTA
+EbookSection
+EbookOffer
+FAQ
+FinalCTA
+Footer
+
+Manter o código organizado e fácil de editar.
+
+# ================================================== 20. CONFIGURAÇÕES EDITÁVEIS
+
+Criar um arquivo de configuração central:
+
+config.js
+
+Nele deixar:
+
+NOME\_DA\_ESPECIALISTA
+WHATSAPP\_URL
+EBOOK\_URL
+INSTAGRAM\_URL
+PRECO\_EBOOK
+PRECO\_ANTIGO\_EBOOK
+NUMERO\_ALUNAS
+ANOS\_EXPERIENCIA
+FOTOS
+DEPOIMENTOS
+
+Assim será possível modificar a página sem precisar procurar informações espalhadas pelo código.
+
+# ================================================== 21. SEO E TRACKING
+
+Adicionar:
+
+- Meta title
+- Meta description
+- Open Graph
+- Favicon
+- Alt text
+- Estrutura semântica de headings
+
+Deixar preparado para:
+
+Meta Pixel
+Google Analytics
+Google Tag Manager
+
+Não inserir IDs falsos.
+
+Criar comentários mostrando onde inserir os códigos.
+
+# ================================================== 22. IMPORTANTE
+
+Não criar uma landing page genérica.
+
+Quero que ela pareça uma página profissional de uma PERSONAL TRAINER/ESPECIALISTA FITNESS FEMININA com uma marca pessoal forte.
+
+A CONSULTORIA deve ser claramente o produto principal.
+
+O E-BOOK deve aparecer como uma segunda oferta independente.
+
+O visitante deve entender rapidamente:
+
+1. Quem é a especialista
+2. O que ela faz
+3. Qual problema resolve
+4. Como funciona a consultoria
+5. O que está incluso
+6. Por que confiar nela
+7. Como entrar em contato
+8. Que existe também um e-book de receitas
+
+A página deve conduzir naturalmente a visitante até o WhatsApp.
+
+Não utilizar promessas exageradas de emagrecimento ou resultados garantidos.
+
+A copy deve ser persuasiva, emocional e profissional, mas sem prometer resultados que não possam ser comprovados.
+
+# ================================================== 23. REVISÃO FINAL
+
+Depois de construir a página:
+
+- Verifique todos os erros do console
+- Teste todos os botões
+- Teste o WhatsApp
+- Teste o link do e-book
+- Teste o menu
+- Teste o FAQ
+- Teste o mobile
+- Verifique espaçamentos
+- Verifique se nenhuma seção ultrapassa a largura da tela
+- Verifique contraste e legibilidade
+- Verifique velocidade de carregamento
+- Revise a página inteira visualmente
+
+A entrega final deve ser uma LANDING PAGE COMPLETA, PREMIUM, RESPONSIVA E FOCADA EM CONVERSÃO, com a CONSULTORIA como oferta principal e o E-BOOK como oferta secundária.
