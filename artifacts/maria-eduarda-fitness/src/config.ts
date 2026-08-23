@@ -13,6 +13,12 @@ export const SITE_CONFIG = {
     ebook: '/ebook-food.png',
   },
   brandLogo: '/giga-kitty-logo.png',
+  results: [
+    { image: '/result-01.jpg', label: 'Evolução de uma cliente', alt: 'Montagem com fotos de evolução corporal de uma cliente' },
+    { image: '/result-02.jpg', label: 'Evolução · vista lateral', alt: 'Foto lateral de evolução corporal de uma cliente' },
+    { image: '/result-03.jpg', label: 'Evolução · mesma cliente', alt: 'Segunda foto lateral de evolução corporal da mesma cliente' },
+    { image: '/result-04.jpg', label: 'Evolução e confiança', alt: 'Montagem com fotos de uma cliente antes e depois da consultoria' },
+  ],
   testimonials: [
     { name: '[Nome da cliente 01]', text: '[Substitua por um depoimento real sobre a experiência na consultoria.]', image: '' },
     { name: '[Nome da cliente 02]', text: '[Substitua por um depoimento real sobre a experiência na consultoria.]', image: '' },
