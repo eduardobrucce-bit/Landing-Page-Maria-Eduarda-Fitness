@@ -1,7 +1,7 @@
 export const SITE_CONFIG = {
   specialistName: 'Maria Eduarda',
   whatsappUrl: 'https://wa.me/5519993858834?text=Ol%C3%A1%20Maria%20Eduarda%2C%20quero%20conhecer%20a%20consultoria.',
-  ebookUrl: 'https://seu-link-do-ebook-aqui.com',
+  ebookUrl: 'https://wa.me/5519993858834?text=Ol%C3%A1%20Maria%20Eduarda%2C%20quero%20pedir%20o%20e-book%20de%20receitas%20f%C3%A1ceis%20e%20saud%C3%A1veis.',
   instagramUrl: 'https://www.instagram.com/dudecaaaa/',
   students: '120',
   experience: '04',
