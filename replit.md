@@ -4,8 +4,10 @@ Landing page em português para a consultoria fitness personalizada da Maria Edu
 
 ## Run & Operate
 
+- `pnpm install --frozen-lockfile` — install the workspace dependencies after importing or cloning
 - `PORT=5173 BASE_PATH=/ pnpm --filter @workspace/maria-eduarda-fitness run dev` — run the frontend locally
 - Workflow do Replit: `Start fitness website`
+- Para gerar o build manualmente, use `PORT=5173 BASE_PATH=/ pnpm --filter @workspace/maria-eduarda-fitness run build`
 - `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000), quando necessário
 - `pnpm run typecheck` — full typecheck across all packages
 - `pnpm run build` — typecheck + build all packages
