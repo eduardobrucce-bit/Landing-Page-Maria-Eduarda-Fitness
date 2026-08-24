@@ -6,7 +6,7 @@ export const SITE_CONFIG = {
   ebookPrice: 'R$ 27,90',
   ebookOldPrice: 'R$ 47,90',
   students: '120',
-  experience: '06',
+  experience: '04',
   photos: {
     hero: '/maria-eduarda-hero.jpg',
     about: '/maria-eduarda-flex.jpg',
