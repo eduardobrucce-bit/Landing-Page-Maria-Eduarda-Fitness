@@ -51,8 +51,8 @@ function Hero() {
           <span className="text-xs text-[hsl(var(--muted-foreground))]">Atendimento próximo. Estratégia possível.</span>
         </div>
       </div>
-      <div className="relative mx-auto w-full max-w-[540px] reveal delay-2">
-        <div className="absolute -right-3 top-8 h-[82%] w-[82%] rounded-t-full bg-[hsl(var(--secondary))]" />
+      <div className="hero-art relative mx-auto w-full max-w-[540px] reveal delay-2">
+        <div className="hero-halo absolute -right-3 top-8 h-[82%] w-[82%] rounded-t-full bg-[hsl(var(--secondary))]" />
         <div className="relative aspect-[.84] overflow-hidden rounded-t-[48%] rounded-b-[12px] bg-[hsl(var(--secondary))]">
           <img data-testid="img-hero-specialist" src={SITE_CONFIG.photos.hero} alt={`${SITE_CONFIG.specialistName}, especialista em consultoria fitness`} className="h-full w-full object-cover object-[center_18%]" onError={(e) => { e.currentTarget.style.display = 'none'; }} />
           <div className="image-placeholder absolute inset-0 -z-10"><span className="eyebrow">foto principal<br />substitua por um retrato editorial</span></div>
@@ -63,7 +63,7 @@ function Hero() {
         </div>
       </div>
     </div>
-    <div className="pointer-events-none absolute -right-28 top-20 h-56 w-56 rounded-full border border-[hsl(var(--primary)/.16)] md:h-96 md:w-96" />
+    <div className="hero-orbit pointer-events-none absolute -right-28 top-20 h-56 w-56 rounded-full border border-[hsl(var(--primary)/.16)] md:h-96 md:w-96" />
   </section>;
 }
 
