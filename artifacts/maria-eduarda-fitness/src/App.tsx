@@ -23,7 +23,7 @@ function Header() {
         <nav className="hidden items-center gap-7 md:flex" aria-label="Navegação principal">
           {links.map(([label, id]) => <button data-testid={`link-nav-${id}`} key={id} onClick={() => goTo(id)} className="text-[11px] font-semibold uppercase tracking-[.12em] text-[hsl(var(--muted-foreground))] transition-colors hover:text-[hsl(var(--primary))]">{label}</button>)}
         </nav>
-        <button data-testid="button-header-whatsapp" onClick={openWhatsApp} className="btn btn-ink hidden min-h-[42px] px-4 text-[10px] md:inline-flex">Quero ser do time Giga Kitty <ArrowUpRight size={14} /></button>
+        <button data-testid="button-header-whatsapp" onClick={openWhatsApp} className="btn header-cta btn-ink hidden min-h-[34px] whitespace-nowrap px-3 text-[9px] md:inline-flex">Quero ser do time Giga Kitty <ArrowUpRight size={12} /></button>
         <button data-testid="button-mobile-menu" className="grid h-10 w-10 place-items-center rounded-full border border-[hsl(var(--foreground)/.12)] md:hidden" onClick={() => setOpen(!open)} aria-label={open ? 'Fechar menu' : 'Abrir menu'}>{open ? <X size={19} /> : <Menu size={19} />}</button>
       </div>
       {open && <nav className="border-t border-[hsl(var(--foreground)/.08)] bg-[hsl(var(--background))] px-5 py-4 md:hidden" aria-label="Navegação mobile">

@@ -54,6 +54,7 @@ a { color: inherit; text-decoration: none; }
 .grain::after { content: ""; position: fixed; inset: 0; pointer-events: none; opacity: .035; z-index: 50; background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E"); }
 .image-placeholder { background: linear-gradient(145deg, hsl(335 52% 92%), hsl(18 55% 91%)); display: grid; place-items: center; color: hsl(337 10% 44%); text-align: center; padding: 24px; }
 .btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 50px; padding: 0 22px; border-radius: 999px; font-weight: 700; font-size: .78rem; letter-spacing: .06em; text-transform: uppercase; transition: transform .25s ease, box-shadow .25s ease, background-color .25s ease; cursor: pointer; border: 0; }
+.header-cta { width: auto !important; min-height: 34px !important; padding: 0 12px !important; gap: 6px !important; font-size: .58rem !important; }
 .btn:hover { transform: translateY(-3px); box-shadow: 0 12px 26px hsl(335 78% 52% / .18); }
 .btn-primary, .btn-pink { color: hsl(var(--primary-foreground)); background: hsl(var(--primary)); }
 .btn-gold { color: hsl(var(--accent-foreground)); background: hsl(var(--accent)); }
