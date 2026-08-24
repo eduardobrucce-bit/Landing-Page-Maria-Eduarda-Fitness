@@ -3,8 +3,6 @@ export const SITE_CONFIG = {
   whatsappUrl: 'https://wa.me/5519993858834?text=Ol%C3%A1%20Maria%20Eduarda%2C%20quero%20conhecer%20a%20consultoria.',
   ebookUrl: 'https://seu-link-do-ebook-aqui.com',
   instagramUrl: 'https://www.instagram.com/dudecaaaa/',
-  ebookPrice: 'R$ 27,90',
-  ebookOldPrice: 'R$ 47,90',
   students: '120',
   experience: '04',
   photos: {
