@@ -12,7 +12,7 @@ const goTo = (id: string) => document.getElementById(id)?.scrollIntoView({ behav
 
 function Header() {
   const [open, setOpen] = useState(false);
-  const links = [['Início', 'inicio'], ['Sobre', 'sobre'], ['Consultoria', 'consultoria'], ['E-book', 'ebook'], ['FAQ', 'faq']];
+  const links = [['Início', 'inicio'], ['Sobre', 'sobre'], ['Planos', 'planos'], ['E-book', 'ebook'], ['FAQ', 'faq']];
   return (
     <header className="sticky top-0 z-40 border-b border-[hsl(var(--foreground)/.08)] bg-[hsl(var(--background)/.88)] backdrop-blur-xl">
       <div className="container-page flex h-[76px] items-center justify-between">
@@ -115,6 +115,24 @@ function Consulting() {
   </section>;
 }
 
+function Plans() {
+  return <section id="planos" className="section-pad bg-[hsl(0_0%_5%)] text-white">
+    <div className="container-page">
+      <div className="mb-14 flex flex-col justify-between gap-7 md:flex-row md:items-end">
+        <div><div className="eyebrow mb-5 text-[hsl(var(--primary))]">escolha seu nível</div><h2 className="max-w-[700px] text-5xl leading-[.92] tracking-[-.05em] md:text-7xl">Planos para cada fase da sua <em className="serif font-normal text-[hsl(var(--primary))]">evolução.</em></h2></div>
+        <p className="max-w-[290px] text-sm leading-6 text-white/60">Escolha o acompanhamento que combina com seu momento e comece a treinar com estratégia.</p>
+      </div>
+      <div className="mb-7 overflow-hidden rounded-[22px] border border-[hsl(var(--primary)/.35)] bg-black shadow-[0_20px_60px_hsl(var(--primary)/.12)]"><img src="/planos-consultoria.jpg" alt="Planos da consultoria Giga Kitty" className="mx-auto max-h-[420px] w-full object-cover object-center md:max-h-[520px]" /></div>
+      <div className="grid gap-5 lg:grid-cols-3">
+        {SITE_CONFIG.plans.map((plan, i) => <article key={plan.name} className={`plan-card reveal plan-${plan.color} ${i === 2 ? 'lg:-translate-y-5' : ''}`}>
+          <div className="relative aspect-[.75] overflow-hidden"><img src={plan.image} alt={`Plano ${plan.name} Giga Kitty`} className="h-full w-full object-cover transition-transform duration-700 hover:scale-105" /><div className="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent opacity-60" /><div className="absolute bottom-5 left-5 right-5"><span className="eyebrow text-white/70">plano {plan.name.toLowerCase()}</span><div className="mt-2 flex items-end justify-between gap-3"><h3 className="text-4xl font-black uppercase italic tracking-[-.05em]">{plan.name}</h3><strong className="text-xl text-[hsl(var(--accent))]">{plan.price}</strong></div></div></div>
+          <div className="p-6"><p className="mb-5 text-sm text-white/65">{plan.summary}</p><ul className="grid gap-3">{plan.features.map(feature => <li key={feature} className="flex gap-3 text-sm leading-5 text-white/85"><Check size={16} className="mt-0.5 shrink-0 text-[hsl(var(--primary))]" />{feature}</li>)}</ul><button onClick={openWhatsApp} className={`btn mt-7 w-full ${i === 2 ? 'btn-gold' : 'btn-pink'}`}>Quero este plano <ArrowUpRight size={15} /></button></div>
+        </article>)}
+      </div>
+    </div>
+  </section>;
+}
+
 function Benefits() {
   return <section className="section-pad bg-[hsl(var(--secondary)/.5)]">
     <div className="container-page grid gap-14 md:grid-cols-[.75fr_1.25fr]"><div><div className="eyebrow mb-5 text-[hsl(var(--primary))]">feito para você</div><h2 className="text-5xl leading-[.94] tracking-[-.05em] md:text-6xl">O que você recebe na <em className="serif font-normal text-[hsl(var(--primary))]">consultoria?</em></h2><p className="mt-7 max-w-[330px] text-sm leading-6 text-[hsl(var(--muted-foreground))]">Todos os itens são ajustados de acordo com o que a sua fase pede. Sem pacotes engessados.</p></div><div className="grid grid-cols-1 sm:grid-cols-2">{benefits.map((benefit, i) => <div key={benefit} className="group flex items-center gap-4 border-b border-[hsl(var(--foreground)/.13)] py-5 transition-colors hover:text-[hsl(var(--primary))]"><span className="grid h-8 w-8 shrink-0 place-items-center rounded-full border border-[hsl(var(--primary)/.35)] text-[hsl(var(--primary))] transition-colors group-hover:bg-[hsl(var(--primary))] group-hover:text-white"><Check size={14} /></span><span className="text-[15px]">{benefit}</span><span className="mono ml-auto text-[10px] text-[hsl(var(--muted-foreground))]">0{i + 1}</span></div>)}</div></div>
@@ -144,9 +162,18 @@ function EbookOffer() {
 }
 
 function FAQ() {
-  const questions = ['Como funciona a consultoria?', 'Como é feito o acompanhamento?', 'O atendimento é pelo WhatsApp?', 'Preciso morar na mesma cidade que a especialista?', 'Posso fazer a consultoria mesmo sendo iniciante?', 'Quanto tempo dura a consultoria?', 'O que está incluso?', 'Como faço para começar?', 'Como recebo o e-book?', 'Posso acessar o e-book pelo celular?'];
+  const questions = [
+    ['Qual plano combina mais comigo?', 'O Bronze é ideal para começar com uma ficha de treinos e acesso ao aplicativo. O Prata acrescenta acompanhamento a cada 15 dias e dicas personalizadas. O Ouro é o acompanhamento mais próximo, com suporte diário, desafios e e-book fitness.'],
+    ['O que está incluso no Plano Bronze?', 'Você recebe sua ficha de treinos, acesso ao aplicativo, renovação da ficha a cada 2 meses e entrada nos grupos Bronze e Prata.'],
+    ['O que muda no Plano Prata?', 'Além da ficha personalizada e do aplicativo, o Prata oferece acompanhamento pessoal a cada 15 dias, dicas personalizadas, renovação a cada 2 meses e acesso aos grupos Bronze e Prata.'],
+    ['Como funciona o Plano Ouro?', 'O Ouro inclui ficha personalizada, aplicativo, renovação a cada 2 meses, acompanhamento pessoal diário, acesso ao grupo Ouro, desafios com premiações mensais e o e-book de receitas fitness.'],
+    ['As fichas de treino são personalizadas?', 'Sim. Nos planos Prata e Ouro, a ficha é personalizada de acordo com seus objetivos. No Bronze, você também recebe uma ficha de treinos para começar com clareza.'],
+    ['Com que frequência minha ficha é renovada?', 'A renovação da ficha acontece a cada 2 meses nos planos Bronze, Prata e Ouro. O acompanhamento do Prata acontece a cada 15 dias e o Ouro tem suporte diário.'],
+    ['Preciso morar na mesma cidade que a Maria Eduarda?', 'Não. A consultoria é online e o acesso ao aplicativo permite acompanhar seus treinos de onde você estiver.'],
+    ['Como faço para contratar um plano?', 'Clique no botão do plano escolhido e fale comigo pelo WhatsApp. Vou entender seu momento, confirmar os próximos passos e orientar você desde o início.'],
+  ];
   const [active, setActive] = useState<number | null>(0);
-  return <section id="faq" className="section-pad"><div className="container-page grid gap-12 md:grid-cols-[.75fr_1.25fr]"><div className="md:sticky md:top-32 md:self-start"><div className="eyebrow mb-5 text-[hsl(var(--primary))]">ainda com dúvidas?</div><h2 className="text-5xl leading-[.94] tracking-[-.05em] md:text-6xl">Perguntas <em className="serif font-normal text-[hsl(var(--primary))]">frequentes.</em></h2><p className="mt-6 max-w-[290px] text-sm leading-6 text-[hsl(var(--muted-foreground))]">Respostas editáveis para deixar a decisão mais leve e transparente.</p></div><div>{questions.map((question, i) => <div key={question} className="border-t border-[hsl(var(--foreground)/.14)]"><button data-testid={`button-faq-${i + 1}`} onClick={() => setActive(active === i ? null : i)} className="flex w-full items-center justify-between py-5 text-left text-base font-semibold"><span><span className="mono mr-4 text-[10px] text-[hsl(var(--primary))]">0{i + 1}</span>{question}</span><ChevronDown size={17} className={`shrink-0 transition-transform ${active === i ? 'rotate-180 text-[hsl(var(--primary))]' : ''}`} /></button><div className={`grid transition-[grid-template-rows] duration-300 ${active === i ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}><p className="overflow-hidden pl-10 pr-8 text-sm leading-6 text-[hsl(var(--muted-foreground))]">[Resposta editável] Explique aqui, de forma acolhedora e objetiva, os detalhes dessa etapa para sua futura cliente.</p></div></div>)}</div></div></section>;
+  return <section id="faq" className="section-pad bg-[hsl(0_0%_9%)] text-white"><div className="container-page grid gap-12 md:grid-cols-[.75fr_1.25fr]"><div className="md:sticky md:top-32 md:self-start"><div className="eyebrow mb-5 text-[hsl(var(--primary))]">tire suas dúvidas</div><h2 className="text-5xl leading-[.94] tracking-[-.05em] md:text-6xl">Perguntas <em className="serif font-normal text-[hsl(var(--primary))]">frequentes.</em></h2><p className="mt-6 max-w-[290px] text-sm leading-6 text-white/60">Tudo o que você precisa saber antes de escolher seu plano Giga Kitty.</p></div><div>{questions.map(([question, answer], i) => <div key={question} className="border-t border-white/15"><button data-testid={`button-faq-${i + 1}`} onClick={() => setActive(active === i ? null : i)} className="flex w-full items-center justify-between py-5 text-left text-base font-semibold"><span><span className="mono mr-4 text-[10px] text-[hsl(var(--primary))]">0{i + 1}</span>{question}</span><ChevronDown size={17} className={`shrink-0 transition-transform ${active === i ? 'rotate-180 text-[hsl(var(--primary))]' : ''}`} /></button><div className={`grid transition-[grid-template-rows] duration-300 ${active === i ? 'grid-rows-[1fr]' : 'grid-rows-[0fr]'}`}><p className="overflow-hidden pl-10 pr-8 pb-5 text-sm leading-6 text-white/60">{answer}</p></div></div>)}</div></div></section>;
 }
 
 function FinalCTA() {
@@ -184,7 +211,7 @@ function useScrollAnimations() {
 
 function Home() {
   useScrollAnimations();
-  return <div className="grain min-h-[100dvh] overflow-x-hidden"><Header /><main><Hero /><Identification /><About /><Consulting /><Benefits /><Audience /><Testimonials /><WhatsAppCTA /><Ebook /><EbookOffer /><FAQ /><FinalCTA /></main><Footer /><a data-testid="link-mobile-sticky-whatsapp" href={SITE_CONFIG.whatsappUrl} target="_blank" rel="noreferrer" className="fixed bottom-0 left-0 right-0 z-30 flex h-14 items-center justify-center gap-2 bg-[hsl(var(--foreground))] text-xs font-bold uppercase tracking-[.1em] text-white md:hidden">Quero minha consultoria <MessageCircle size={16} /></a></div>;
+  return <div className="grain min-h-[100dvh] overflow-x-hidden"><Header /><main><Hero /><Identification /><About /><Consulting /><Plans /><Benefits /><Audience /><Testimonials /><WhatsAppCTA /><Ebook /><EbookOffer /><FAQ /><FinalCTA /></main><Footer /><a data-testid="link-mobile-sticky-whatsapp" href={SITE_CONFIG.whatsappUrl} target="_blank" rel="noreferrer" className="fixed bottom-0 left-0 right-0 z-30 flex h-14 items-center justify-center gap-2 bg-[hsl(0_0%_5%)] text-xs font-bold uppercase tracking-[.1em] text-white md:hidden">Quero minha consultoria <MessageCircle size={16} /></a></div>;
 }
 
 function App() {

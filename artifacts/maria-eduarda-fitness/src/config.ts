@@ -11,6 +11,32 @@ export const SITE_CONFIG = {
     ebook: '/ebook-food.png',
   },
   brandLogo: '/giga-kitty-wordmark.png',
+  plans: [
+    {
+      name: 'Bronze',
+      price: 'R$ 49,90',
+      image: '/plano-bronze.jpg',
+      color: 'bronze',
+      summary: 'Para começar com direção e constância.',
+      features: ['Ficha de treinos', 'Acesso ao aplicativo', 'Renovação da ficha a cada 2 meses', 'Acesso aos grupos Bronze e Prata'],
+    },
+    {
+      name: 'Prata',
+      price: 'R$ 99,90',
+      image: '/plano-prata.jpg',
+      color: 'silver',
+      summary: 'Mais personalização para acelerar sua evolução.',
+      features: ['Ficha de treinos personalizada', 'Acompanhamento pessoal a cada 15 dias', 'Dicas personalizadas', 'Acesso ao aplicativo', 'Renovação da ficha a cada 2 meses', 'Acesso aos grupos Bronze e Prata'],
+    },
+    {
+      name: 'Ouro',
+      price: 'R$ 149,90',
+      image: '/plano-ouro.jpg',
+      color: 'gold',
+      summary: 'A experiência completa para quem quer acompanhamento próximo.',
+      features: ['Ficha de treino personalizada', 'Acesso ao aplicativo', 'Renovação da ficha a cada 2 meses', 'Acesso ao grupo Ouro', 'Acompanhamento pessoal diário', 'Desafios e premiações mensais', 'E-book de receitas fitness'],
+    },
+  ],
   results: [
     { image: '/result-01.jpg', label: 'Evolução de uma cliente', alt: 'Montagem com fotos de evolução corporal de uma cliente' },
     { image: '/result-02.jpg', label: 'Evolução · vista lateral', alt: 'Foto lateral de evolução corporal de uma cliente' },
