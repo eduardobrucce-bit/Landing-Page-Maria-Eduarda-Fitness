@@ -8,7 +8,7 @@ export const SITE_CONFIG = {
   photos: {
     hero: '/maria-eduarda-hero.jpg',
     about: '/maria-eduarda-flex.jpg',
-    ebook: '/ebook-food.png',
+    ebook: '/ebook-cover.jpg',
   },
   brandLogo: '/giga-kitty-wordmark.png',
   plans: [
