@@ -1,8 +1,8 @@
 export const SITE_CONFIG = {
   specialistName: 'Maria Eduarda',
-  whatsappUrl: 'https://wa.me/5500000000000?text=Ol%C3%A1%20Maria%20Eduarda%2C%20quero%20conhecer%20a%20consultoria.',
+  whatsappUrl: 'https://wa.me/5519993858834?text=Ol%C3%A1%20Maria%20Eduarda%2C%20quero%20conhecer%20a%20consultoria.',
   ebookUrl: 'https://seu-link-do-ebook-aqui.com',
-  instagramUrl: 'https://instagram.com/seu-instagram-aqui',
+  instagramUrl: 'https://www.instagram.com/dudecaaaa/',
   ebookPrice: 'R$ 27,90',
   ebookOldPrice: 'R$ 47,90',
   students: '120',
