@@ -8,8 +8,8 @@ export const SITE_CONFIG = {
   students: '120',
   experience: '06',
   photos: {
-    hero: '/maria-hero.png',
-    about: '/maria-hero.png',
+    hero: '/maria-eduarda-hero.jpg',
+    about: '/maria-eduarda-flex.jpg',
     ebook: '/ebook-food.png',
   },
   brandLogo: '/giga-kitty-logo.png',
