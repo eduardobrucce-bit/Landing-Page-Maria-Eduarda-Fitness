@@ -12,7 +12,7 @@ export const SITE_CONFIG = {
     about: '/maria-eduarda-flex.jpg',
     ebook: '/ebook-food.png',
   },
-  brandLogo: '/giga-kitty-logo.png',
+  brandLogo: '/giga-kitty-wordmark.png',
   results: [
     { image: '/result-01.jpg', label: 'Evolução de uma cliente', alt: 'Montagem com fotos de evolução corporal de uma cliente' },
     { image: '/result-02.jpg', label: 'Evolução · vista lateral', alt: 'Foto lateral de evolução corporal de uma cliente' },
