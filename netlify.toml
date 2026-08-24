@@ -1,0 +1,11 @@
+[build]
+  command = "PORT=20031 BASE_PATH=/ pnpm --filter @workspace/maria-eduarda-fitness run build"
+  publish = "artifacts/maria-eduarda-fitness/dist/public"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
