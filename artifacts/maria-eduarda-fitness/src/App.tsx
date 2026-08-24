@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 import { ErrorBoundary } from '@/components/error-boundary';
 import { Toaster } from '@/components/ui/toaster';
@@ -157,7 +157,33 @@ function Footer() {
   return <footer className="bg-[hsl(var(--foreground))] py-12 text-[hsl(var(--background))]"><div className="container-page"><div className="grid gap-10 md:grid-cols-[1fr_auto_auto]"><div><div className="flex items-center gap-3"><img src={SITE_CONFIG.brandLogo} alt="Giga Kitty" className="h-12 w-40 object-contain object-left" /><strong>{SITE_CONFIG.specialistName}</strong></div><p className="mt-5 max-w-[270px] text-xs leading-5 text-white/55">Movimento com propósito. Estratégia para uma rotina que é sua.</p></div><div><span className="eyebrow text-[hsl(var(--accent))]">navegue</span><div className="mt-4 grid gap-3 text-xs text-white/65"><button data-testid="link-footer-inicio" onClick={() => goTo('inicio')} className="text-left hover:text-white">Início</button><button data-testid="link-footer-consultoria" onClick={() => goTo('consultoria')} className="text-left hover:text-white">Consultoria</button><button data-testid="link-footer-ebook" onClick={() => goTo('ebook')} className="text-left hover:text-white">E-book</button><button data-testid="link-footer-faq" onClick={() => goTo('faq')} className="text-left hover:text-white">FAQ</button></div></div><div><span className="eyebrow text-[hsl(var(--accent))]">acompanhe</span><a data-testid="link-instagram" href={SITE_CONFIG.instagramUrl} target="_blank" rel="noreferrer" className="mt-4 flex items-center gap-2 text-xs text-white/65 hover:text-white"><Instagram size={15} /> Instagram</a></div></div><div className="mt-12 border-t border-white/15 pt-5 text-[10px] leading-5 text-white/40 md:flex md:justify-between"><span>© 2026 {SITE_CONFIG.specialistName}. Todos os direitos reservados.</span><span className="mt-3 block max-w-[600px] md:mt-0 md:text-right">Os conteúdos apresentados possuem caráter informativo e não substituem avaliação ou acompanhamento individual realizado por profissionais habilitados.</span></div></div></footer>;
 }
 
+function useScrollAnimations() {
+  useEffect(() => {
+    const elements = Array.from(document.querySelectorAll<HTMLElement>('.reveal'));
+    if (!('IntersectionObserver' in window)) {
+      elements.forEach((element) => element.classList.add('is-in-view'));
+      return;
+    }
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-in-view');
+            observer.unobserve(entry.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -36px' },
+    );
+
+    elements.forEach((element) => observer.observe(element));
+    return () => observer.disconnect();
+  }, []);
+}
+
 function Home() {
+  useScrollAnimations();
   return <div className="grain min-h-[100dvh] overflow-x-hidden"><Header /><main><Hero /><Identification /><About /><Consulting /><Benefits /><Audience /><Testimonials /><WhatsAppCTA /><Ebook /><EbookOffer /><FAQ /><FinalCTA /></main><Footer /><a data-testid="link-mobile-sticky-whatsapp" href={SITE_CONFIG.whatsappUrl} target="_blank" rel="noreferrer" className="fixed bottom-0 left-0 right-0 z-30 flex h-14 items-center justify-center gap-2 bg-[hsl(var(--foreground))] text-xs font-bold uppercase tracking-[.1em] text-white md:hidden">Quero minha consultoria <MessageCircle size={16} /></a></div>;
 }
 
