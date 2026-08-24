@@ -1,15 +1,17 @@
-# [Project name]
+# Maria Eduarda Fitness
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+Landing page em português para a consultoria fitness personalizada da Maria Eduarda.
 
 ## Run & Operate
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
+- `PORT=5173 BASE_PATH=/ pnpm --filter @workspace/maria-eduarda-fitness run dev` — run the frontend locally
+- Workflow do Replit: `Start fitness website`
+- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000), quando necessário
 - `pnpm run typecheck` — full typecheck across all packages
 - `pnpm run build` — typecheck + build all packages
 - `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
 - `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- Required env for the API: `DATABASE_URL` — Postgres connection string
 
 ## Stack
 
@@ -22,7 +24,10 @@ _Replace the heading above with the project's name, and this line with one sente
 
 ## Where things live
 
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- Frontend: `artifacts/maria-eduarda-fitness`
+- API: `artifacts/api-server`
+- Shared libraries: `lib/`
+- Imagens públicas do site: `artifacts/maria-eduarda-fitness/public`
 
 ## Architecture decisions
 
@@ -30,7 +35,7 @@ _Populate as you build — non-obvious choices a reader couldn't infer from the 
 
 ## Product
 
-_Describe the high-level user-facing capabilities of this app once they exist._
+Página de conversão para apresentar a especialista, explicar a consultoria, exibir depoimentos e direcionar visitantes para o WhatsApp e para o e-book de receitas.
 
 ## User preferences
 
@@ -38,7 +43,8 @@ _Populate as you build — explicit user instructions worth remembering across s
 
 ## Gotchas
 
-_Populate as you build — sharp edges, "always run X before Y" rules._
+- O frontend exige `PORT` e `BASE_PATH`; o workflow usa `PORT=5173` e `BASE_PATH=/`.
+- O API server depende de `DATABASE_URL` e não é necessário para renderizar a landing page atual.
 
 ## Pointers
 
