@@ -26,8 +26,8 @@ author = "agent"
 
 [[workflows.workflow.tasks]]
 task = "shell.exec"
-args = "pnpm install --frozen-lockfile && PORT=5173 BASE_PATH=/ pnpm --filter @workspace/maria-eduarda-fitness run dev"
-waitForPort = 5173
+args = "pnpm install --frozen-lockfile && PORT=20031 BASE_PATH=/ pnpm --filter @workspace/maria-eduarda-fitness run dev"
+waitForPort = 20031
 
 [workflows.workflow.metadata]
 outputType = "webview"
